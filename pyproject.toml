@@ -17,7 +17,7 @@ matplotlib = "^3.8"
 ipykernel = "^6.29"
 jupyter = "^1.0"
 
-[tool.poetry.dev-dependencies]
+[tool.poetry.group.dev.dependencies]
 pytest = "^8.3"
 pytest-cov = "^6.0"
 pytest-mock = "^3.14"
