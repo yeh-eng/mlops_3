@@ -1,7 +1,7 @@
 import pandas as pd
 import hydra
 from omegaconf import DictConfig
-import utils  # relative import
+from src import utils  # relative import
 from sklearn.preprocessing import LabelEncoder
 
 @hydra.main(version_base=None, config_path="../confs", config_name="preprocessing")
