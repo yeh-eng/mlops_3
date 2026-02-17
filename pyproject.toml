@@ -99,3 +99,8 @@ convention = "google"
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = ["pytest", "black", "ruff"]
+notebook = ["ipykernel", "jupyter"]
+
