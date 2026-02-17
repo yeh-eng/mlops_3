@@ -2,7 +2,7 @@
 
 # %% IMPORTS
 
-from mlops_3 import scripts
+from src import scripts
 
 # %% MAIN
 

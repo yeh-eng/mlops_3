@@ -1,13 +1,13 @@
 # data
 dataset:
   data: data/raw.csv
-  encoding: iso-8859-1
+  encoding: ISO-8859-1
 
 pipeline:
   pipeline01: decisiontree
 
 target: 
-  target: match
+  target: gender
 
 variables:
 # this variable is to calculate the temporal variable,
